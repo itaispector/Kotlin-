@@ -1,10 +1,10 @@
 # Kotlin-FAQ
 
-##What does `data class` keyword stands for?<br>
+## What does `data class` keyword stands for?<br>
 [https://kotlinlang.org/docs/reference/data-classes.html](reference)
 
 
-##How to write static class functions?
+## How to write static class functions?
 Here's an example:
 
 ```
