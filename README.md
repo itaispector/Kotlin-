@@ -34,3 +34,15 @@ Then from another class:
 ExampleClass.exampleFunction()
 ExampleClass.exampleVar
 ```
+
+### Switch statement in Kotlin
+Kotlin doesn't have `switch` keyword, instead, it uses `when` keyword, and in a different way like so:
+```
+when (x) {
+    1 -> print("x == 1")
+    2 -> print("x == 2")
+    else -> { // Note the block
+        print("x is neither 1 nor 2")
+    }
+}
+```
