@@ -11,6 +11,13 @@ The open annotation on a class is the opposite of Java's final: it allows others
  [reference](https://kotlinlang.org/docs/reference/classes.html#inheritance)
 
 ### How to write static class functions?
+####Important note:
+>Note that, even though the members of companion objects look like
+static members in other languages, **at runtime those are still
+instance members of real objects**
+
+> However, on the JVM you can have members of companion objects generated **as real static methods and fields**, if you use the `@JvmStatic` annotation
+
 Here's an example:
 
 ```
