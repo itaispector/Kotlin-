@@ -57,3 +57,6 @@ when (x) {
     }
 }
 ```
+
+### Kotlin generics example
+[generics](https://gist.github.com/passsy/3e6a12150af02120f8c6c156100277cc)
